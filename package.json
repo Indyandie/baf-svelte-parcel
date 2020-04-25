@@ -1,0 +1,26 @@
+{
+  "name": "svelte-test",
+  "version": "1.0.0",
+  "description": "basic af svelte and parcel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "svelte",
+    "parcel",
+    "basic"
+  ],
+  "author": "Andy Contreras",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6"
+  },
+  "dependencies": {
+    "svelte": "^3.20.1"
+  }
+}
