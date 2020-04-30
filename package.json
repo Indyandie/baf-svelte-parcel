@@ -16,7 +16,6 @@
   ],
   "author": "Andy Contreras",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "parcel-bundler": "^1.12.4",
