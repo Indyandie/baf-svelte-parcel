@@ -5,8 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel src/index.html",
+    "server": "npm run build && serve -s build",
+    "build": "rm -rf build && parcel build --no-source-maps src/index.html -d build"
   },
   "keywords": [
     "svelte",
@@ -15,12 +16,12 @@
   ],
   "author": "Andy Contreras",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6"
-  },
-  "dependencies": {
+    "parcel-plugin-svelte": "^4.0.6",
+    "serve": "^11.3.0",
     "svelte": "^3.20.1"
   }
 }
