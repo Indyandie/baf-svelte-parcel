@@ -21,5 +21,8 @@
     "parcel-plugin-svelte": "^4.0.6",
     "serve": "^11.3.2",
     "svelte": "^3.20.1"
+  },
+  "devDependencies": {
+    "less": "^3.12.2"
   }
 }

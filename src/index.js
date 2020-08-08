@@ -1,9 +1,9 @@
 import '@babel/polyfill'
-import App from '../Components/App'
+import App from './App'
 
 const app = new App({
     target: document.body,
     props: {
-        name: 'world'
+        name: 'Svelte'
     }
 })
