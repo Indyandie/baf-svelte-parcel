@@ -2,12 +2,12 @@
 Super basic svelte template using parcel.
 
 ## Setup
-In your terminal do the followoing
+In your terminal
 
 1. Clone this repo `git clone https://github.com/Indyandie/baf-svelte-parcel.git`
 1. Go in to your naw directory `cd baf-svelte-parcel`
-1. Add your dependancies `npm install`
+1. install dependancies `npm i`
 
 
-## 🚀 Run it locally
+## 🚀 Run it
 `npm start`
