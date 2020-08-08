@@ -1,4 +1,4 @@
-# baf-svelte-parcel
+# baf-svelte-parcel 🦢📦
 Super basic svelte template using parcel.
 
 ## Setup
