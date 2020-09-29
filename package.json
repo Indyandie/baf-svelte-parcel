@@ -2,11 +2,10 @@
   "name": "svelte-test",
   "version": "1.0.0",
   "description": "basic af svelte and parcel",
-  "main": "app.js",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel src/index.html --no-cache",
     "server": "npm run build && serve -s build",
-    "build": "rm -rf build && parcel build --no-source-maps src/index.html -d build"
+    "build": "rm -rf build && parcel build --no-source-maps src/index.html -d dist"
   },
   "keywords": [
     "svelte",
@@ -16,13 +15,13 @@
   "author": "Andy Contreras",
   "license": "ISC",
   "dependencies": {
-    "@babel/polyfill": "^7.10.4",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6",
-    "serve": "^11.3.2",
-    "svelte": "^3.24.1"
+    "svelte": "^3.28.0"
   },
   "devDependencies": {
-    "less": "^3.12.2"
+    "@babel/polyfill": "^7.11.5",
+    "less": "^3.12.2",
+    "parcel": "^2.0.0-nightly.410",
+    "parcel-transformer-svelte": "^1.0.5",
+    "serve": "^11.3.2"
   }
 }
