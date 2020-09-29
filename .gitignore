@@ -1,5 +1,7 @@
 dist
+build
 node_modules
 .cache
 .DS_Store
 build
+package-lock.json
