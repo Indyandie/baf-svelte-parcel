@@ -11,7 +11,3 @@
 
   <h2>Basic <strong>AF</strong> {name} Parcel</h2>
 </main>
-
-
-
-
