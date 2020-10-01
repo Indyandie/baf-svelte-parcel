@@ -1,6 +1,6 @@
 <script>
   import './styles/app.less'
-  export let name = "anon"
+  export let name = 'anon'
 </script>
 
 <main id="app">
