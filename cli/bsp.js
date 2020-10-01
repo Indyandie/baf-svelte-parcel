@@ -3,7 +3,7 @@
 const { spawn } = require('child_process')
 const chalk = require('chalk')
 
-const brp = 'git@github.com:Indyandie/baf-svelte-parcel.git'
+const bsp = 'git@github.com:Indyandie/baf-svelte-parcel.git'
 const dirname = process.argv[2] || 'basp'
 
 const spawner = (cmd, args=[], exit) => {
@@ -31,7 +31,7 @@ const basp = async () => {
    console.log(chalk.white.bold('\nInstalling baf-svelte-parcel'))
    console.log('hold tight this could take a few minutes\n')
    console.log('🐙🧬🐙')
-   spawner('git', ['clone', brp, dirname], 
+   spawner('git', ['clone', bsp, dirname], 
       () => {
          process.chdir(dirname)
          console.log('📦 installing packages...')
