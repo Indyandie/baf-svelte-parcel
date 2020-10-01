@@ -1,0 +1,24 @@
+{
+   "name": "baf-svelte-parcel",
+   "version": "1.0.0",
+   "description": "Super basic svelte template using parcel.",
+   "bin": {
+      "basp": "./bsp.js"
+   },
+   "keywords": [
+      "parcel",
+      "svelte",
+      "cli",
+      "basic"
+   ],
+   "author": "Andy Contreras",
+   "license": "ISC",
+   "dependencies": {
+      "chalk": "^4.1.0"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Indyandie/baf-svelte-parcel",
+      "directory": "cli"
+   }
+}
