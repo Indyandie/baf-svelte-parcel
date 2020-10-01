@@ -5,8 +5,8 @@
 
 <main id="app">
   <h1 class="emoji">
-        <div>🦢</div>
-        📦 
+    <div>🦢</div>
+    📦 
   </h1>
 
   <h2>Basic <strong>AF</strong> {name} Parcel</h2>
